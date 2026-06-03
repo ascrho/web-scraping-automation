@@ -1,0 +1,30 @@
+{
+  "ticketing_platform": {
+    "url": "https://ticketing.example.com",
+    "username": "your-user",
+    "password": "your-password",
+    "output_dir": "./output/ticketing",
+    "headless": true,
+    "timeout": 30,
+    "retry_attempts": 3,
+    "date_format": "YYYY-MM-DD"
+  },
+  "telephony_platform": {
+    "url": "https://telephony.example.com",
+    "username": "your-user",
+    "password": "your-password",
+    "output_dir": "./output/telephony",
+    "headless": true,
+    "timeout": 45,
+    "retry_attempts": 3
+  },
+  "regulatory_portal": {
+    "url": "https://regulatory.example.gov",
+    "username": "your-user",
+    "password": "your-password",
+    "output_dir": "./output/regulatory",
+    "headless": false,
+    "timeout": 60,
+    "retry_attempts": 5
+  }
+}

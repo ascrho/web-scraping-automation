@@ -1,0 +1,6 @@
+selenium>=4.15
+beautifulsoup4>=4.12
+pandas>=2.0
+webdriver-manager>=4.0
+requests>=2.31
+lxml>=5.0
